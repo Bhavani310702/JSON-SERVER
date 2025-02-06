@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "age": 25
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "age": 30
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "age": 28
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "description": "A high-performance laptop",
+      "price": 999.99,
+      "tags": ["electronics", "computer"]
+    },
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "description": "A latest model smartphone",
+      "price": 699.99,
+      "tags": ["electronics", "mobile"]
+    },
+    {
+      "id": 103,
+      "name": "Coffee Maker",
+      "description": "Brews fresh coffee",
+      "price": 49.99,
+      "tags": ["kitchen", "appliance"]
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 5001,
+      "userId": 1,
+      "productIds": [101, 103],
+      "orderDate": "2025-02-01",
+      "status": "Shipped"
+    },
+    {
+      "orderId": 5002,
+      "userId": 2,
+      "productIds": [102],
+      "orderDate": "2025-02-03",
+      "status": "Processing"
+    }
+  ]
+}
+
